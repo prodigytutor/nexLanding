@@ -1,0 +1,43 @@
+/* ----------------------------------------------------------------------------
+ * This file contains styles for our global components.
+ * 
+ * We use Tailwind CSS to generate utility classes. The "base" and "utilities"
+ * layers are standard Tailwind CSS classes. The "components" layer is where
+ * we define classes for our own components.
+ * 
+ * In this file, we're defining the styles for our buttons, which are our own
+ * components. We're defining two classes: "btn-primary" and "btn-text".
+ * 
+ * The "btn-primary" class is used to style our primary button color. It sets the
+ * background color to black and the text color to white.
+ * 
+ * The "btn-text" class is used to style our text-only buttons. It sets the text
+ * color to black and removes the background color.
+ * 
+ * The "components" layer is defined using the "@layer components" directive.
+ * This directive tells Tailwind CSS to generate utility classes for this layer.
+ * 
+ * The "@apply" directive is used to apply a set of utility classes to an element.
+ * Here, we're applying a set of utility classes to our button components.
+ * These utility classes set the padding, border-radius, font-weight, and
+ * display properties of the button.
+ * ----------------------------------------------------------------------------
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* Apply the following utility classes to all button components */
+    /*@apply py-4 px-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight;*/
+}
+
+.btn-primary {
+    /* Apply the following utility classes to all elements with the "btn-primary" class */
+    /*@apply bg-black text-white;*/
+}
+
+.btn-text {
+    /* Apply the following utility classes to all elements with the "btn-text" class */
+    /*//@apply text-black bg-transparent;*/
+}
