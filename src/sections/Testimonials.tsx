@@ -66,5 +66,23 @@ const testimonials = [
 ];
 
 export const Testimonials = () => {
-  return "Testimonials";
+  return (
+    <section className="py-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_200%_100%_at_bottom_left,#183EC2,#EAEEFE_100%)] from-[#EAEEFE] via-[#EAEEFE] to-[#EAEEFE] bg-gradient overflow-x-clip">
+    <div className="container">
+    <div className="max-w-[540px] mx-auto">
+      <div className="md:flex items-center">
+        <div className="md:w-[478px]">
+        <div className="text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">Testimonials
+        </div>
+        <h1 className="text-3xl md:text-5xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6 text-center">What our users say</h1>
+        <p className="text-xl text-[#010D3E] tracking-tight mt-6 text-center">Celebrate the joy of success with an app designed to reinforce and build upon your knowledge, instill confidence,
+          and set you up to succeed</p>
+      </div>
+      <div className="mt-20 md:mt-0 md:h-[640px] md:flex-1 relative">
+      </div>
+      </div>
+    </div>
+    </div>
+    </section>
+  )
 };
