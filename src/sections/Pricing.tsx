@@ -60,8 +60,8 @@ export const Pricing = () => {
         <p className="text-xl text-[#010D3E] tracking-tight mt-6 text-center">Find the right plan for your needs. Free forever, upgrade to enjoy unlimited mock interviews with detailed feednack
         and action plans</p>
         <div className="flex flex-col gap-6 items-center mt-10 lg:flex-row lg:items-end lg:justify-center">
-          {pricingTiers.map(({title, monthlyPrice, buttonText, popular, inverse, features}) => (
-          <div className={twMerge("p-10 border border-[#F1F1F1] rounded-3xl shadow-[0_7px_30px_rgba(0,0,0,0.07)]", inverse === true && "border-black bg-black text-white")}>
+          {pricingTiers.map(({title, monthlyPrice, buttonText, popular, inverse, features}, index) => (
+          <div key={index} className={twMerge("p-10 border border-[#F1F1F1] rounded-3xl shadow-[0_7px_30px_rgba(0,0,0,0.07)]", inverse === true && "border-black bg-black text-white")}>
             <div className="flex justify-between"><h3 className="text-lg font-bold text-black/50">{title}</h3>
             {popular === true && (      
             <div className="inline-flex rounded-xl border  text-sm px-4 py-1.5 border-white/20">
