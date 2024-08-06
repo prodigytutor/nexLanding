@@ -4,6 +4,7 @@ import cogImage from "@/assets/cog.png";
 import Image from "next/image";
 import cylinderImage from "@/assets/cylinder.png";
 import noodleImage from "@/assets/noodle.png";
+import Link from "next/link";
 
 export const Hero = () => {
   return (
@@ -17,7 +18,7 @@ export const Hero = () => {
         <p className="text-xl text-[#010D3E] tracking-tight mt-6">Celebrate the joy of success with an app designed to reinforce and build upon your knowledge, instill confidence,
           and set you up to succeed</p>
           <div className="flex gap-1 items-center mt-[30px]">
-            <button className="bg-black text-white py-4 px-2 rounded-lg text-md inline-flex items-center justify-center tracking-tight">Get for free</button>
+            <button className="bg-black text-white py-4 px-2 rounded-lg text-md inline-flex items-center justify-center tracking-tight"><Link href="https://admin.nexai.network/forms-new/58324-tXzTLvJx7r3c4GjkBmSY">Get for free</Link></button>
           <button className="bg-transparent text-black py-4 px-2 rounded-lg text-md inline-flex items-center justify-center tracking-tight"><span>Learn more</span>
           <ArrowIcon className="h-5 w-5" /></button>
           </div>

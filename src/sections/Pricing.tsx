@@ -1,4 +1,5 @@
 import CheckIcon from "@/assets/check.svg";
+import Link from "next/link";
 import { twMerge } from "tailwind-merge";
 const pricingTiers = [
   {
@@ -72,7 +73,7 @@ export const Pricing = () => {
             <span className="text-4xl font-bold tracking-tighter leading-none">${monthlyPrice}</span>
               <span className="font-bold tracking-tight text-black/50">/month</span>
             </div>
-            <button className={twMerge("bg-black text-white py-4 px-2 rounded-lg text-md inline-flex items-center justify-center tracking-tight w-full mt-[30px]", inverse === true && "bg-white text-black")}>{buttonText}</button>
+            <button className={twMerge("bg-black text-white py-4 px-2 rounded-lg text-md inline-flex items-center justify-center tracking-tight w-full mt-[30px]", inverse === true && "bg-white text-black")}><Link href="https://admin.nexai.network/forms-new/58324-tXzTLvJx7r3c4GjkBmSY">{buttonText}</Link></button>
             <ul className="flex flex-col gap-5 mt-10">
               {features.map((feature) => (
                 <li className="text-sm flex items-center gap-4">
