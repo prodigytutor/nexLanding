@@ -27,7 +27,7 @@ export const ProductShowcase = () => {
         {/* The p element represents a paragraph of regular text */}
         {/* The docstring can be added to the paragraph element */}
         {/* The paragraph represents a paragraph of regular text */}
-        <p className="text-xl text-[#010D3E] tracking-tight mt-6 text-center">Effortlessly prepare for your next interview. With our app, you can focus on what's important.</p>
+        <p className="text-xl text-[#010D3E] tracking-tight mt-6 text-center">Effortlessly prepare for your next interview. With our app, you can focus on what is important.</p>
 
       </div>
       <div className="relative">

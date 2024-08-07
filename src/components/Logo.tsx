@@ -1,5 +1,5 @@
 import React from 'react'
-import AiInterviewLogo from "/ai-interview-logo-dark"
+import AiInterviewLogo from "/ai-interview-logo-dark.png"
 import Image from "next/image"
 type Props = {}
 
